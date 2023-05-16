@@ -1,1 +1,1 @@
-# SB4-KBS_small11
+# SB4-KOM
