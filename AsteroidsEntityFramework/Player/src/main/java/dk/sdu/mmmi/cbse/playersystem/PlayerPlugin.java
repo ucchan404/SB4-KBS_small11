@@ -3,11 +3,13 @@ package dk.sdu.mmmi.cbse.playersystem;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
+import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 
-public class PlayerPlugin implements IGamePluginService {
+public class PlayerPlugin implements IGamePluginService, IPostEntityProcessingService {
 
     private Entity player;
 
@@ -35,6 +37,7 @@ public class PlayerPlugin implements IGamePluginService {
         Entity playerShip = new Player();
         playerShip.add(new MovingPart(deacceleration, acceleration, maxSpeed, rotationSpeed));
         playerShip.add(new PositionPart(x, y, radians));
+        playerShip.add(new LifePart(3,0));
         
         return playerShip;
     }
@@ -45,4 +48,8 @@ public class PlayerPlugin implements IGamePluginService {
         world.removeEntity(player);
     }
 
+    @Override
+    public void process(GameData gameData, World world) {
+
+    }
 }

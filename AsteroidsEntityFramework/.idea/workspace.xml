@@ -1,16 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4a7083-38ed-4a2b-82aa-4f4397ae9e04" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/World.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/events/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IGamePluginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/Enemy-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/Enemy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/Player-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -32,10 +91,38 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/sandra/Documents/06/KBS/aflevering/SB4-KBS_small11/AsteroidsLibGDX",
+    "last_opened_file_path": "/home/sandra/Documents/06/KBS/tidligere aflevering/small11_JavaLab/AsteroidsServiceLoader",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.sdu.mmmi.cbse.main.Main" />
+      <module name="Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.sdu.mmmi.cbse.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684240633029</updated>
       <workItem from="1684240634025" duration="10000" />
+      <workItem from="1684495388027" duration="14349000" />
     </task>
     <servers />
   </component>
