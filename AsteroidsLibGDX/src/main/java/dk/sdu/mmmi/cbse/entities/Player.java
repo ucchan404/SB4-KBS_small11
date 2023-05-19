@@ -5,6 +5,10 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.main.Game;
 
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.util.ArrayList;
+
 public class Player extends SpaceObject {
 
     private boolean left;
@@ -15,7 +19,23 @@ public class Player extends SpaceObject {
     private float acceleration;
     private float deceleration;
 
-    public Player() {
+    private boolean hit;
+    private boolean dead;
+
+    private float hitTimer;
+    private float hitTime;
+    private Line2D.Float[] hitLines;
+    private Point2D.Float[] hitLinesVector;
+
+    private long score;
+    private int extraLives;
+    private long requiredScore;
+
+    private final int MAX_BULLETS = 4;
+    private ArrayList<Bullet> bullets;
+
+    public Player(ArrayList<Bullet> bullets) {
+        this.bullets = bullets;
 
         x = Game.WIDTH / 2;
         y = Game.HEIGHT / 2;
@@ -29,6 +49,14 @@ public class Player extends SpaceObject {
 
         radians = 3.1415f / 2;
         rotationSpeed = 3;
+
+        hit = false;
+        hitTimer = 0;
+        hitTime = 2;
+
+        score = 0;
+        extraLives = 3;
+        requiredScore = 1000;
 
     }
 
@@ -58,7 +86,92 @@ public class Player extends SpaceObject {
         up = b;
     }
 
+    public boolean isHit() {
+        return hit;
+    }
+
+    public boolean isDead() {
+        return dead;
+    }
+
+    public void reset() {
+        x = Game.WIDTH / 2;
+        y = Game.HEIGHT / 2;
+        setShape();
+        hit = dead = false;
+    }
+
+    public long getScore() {
+        return score;
+    }
+
+    public int getExtraLives() {
+        return extraLives;
+    }
+
+    public void loseLife() {
+        extraLives--;
+    }
+
+    public void incrementScore(long l) {
+        score += l;
+    }
+
+
+    public void setPosition(float x, float y){
+        super.setPosition(x, y);
+        setShape();
+    }
+    public void shoot() {
+        if (bullets.size() == MAX_BULLETS) return;
+        bullets.add(new Bullet(x, y, radians));
+    }
+
+    public void hit() {
+        if (hit) {
+            return;
+        }
+        hit = true;
+        dx = dy = 0;
+        left = right = up = false;
+
+        hitLines = new Line2D.Float[4];
+        for (int i = 0, j = hitLines.length - 1; i < hitLines.length; j = i++) {
+            hitLines[i] = new Line2D.Float(shapex[i], shapey[i], shapex[j], shapey[j]);
+        }
+        hitLinesVector = new Point2D.Float[4];
+        hitLinesVector[0] = new Point2D.Float(MathUtils.cos(radians + 1.5f), MathUtils.sin(radians + 1.5f));
+        hitLinesVector[1] = new Point2D.Float(MathUtils.cos(radians - 1.5f), MathUtils.sin(radians - 1.5f));
+        hitLinesVector[2] = new Point2D.Float(MathUtils.cos(radians - 2.8f), MathUtils.sin(radians - 2.8f));
+        hitLinesVector[3] = new Point2D.Float(MathUtils.cos(radians + 2.8f), MathUtils.sin(radians + 2.8f));
+
+
+    }
+
     public void update(float dt) {
+        //check if hit
+        if (hit) {
+            hitTimer += dt;
+            if (hitTimer > hitTime) {
+                dead = true;
+                hitTimer = 0;
+            }
+            for (int i = 0; i < hitLines.length; i++) {
+                hitLines[i].setLine(
+                        hitLines[i].x1 + hitLinesVector[i].x * 10 * dt,
+                        hitLines[i].y1 + hitLinesVector[i].y * 10 * dt,
+                        hitLines[i].x2 + hitLinesVector[i].x * 10 * dt,
+                        hitLines[i].y2 + hitLinesVector[i].y * 10 * dt
+                );
+            }
+            return;
+        }
+
+        //check extra lives
+        if (score >= requiredScore) {
+            extraLives++;
+            requiredScore += 1000;
+        }
 
         // turning
         if (left) {
@@ -102,9 +215,24 @@ public class Player extends SpaceObject {
 
         sr.begin(ShapeType.Line);
 
+        //check if hit
+        if (hit) {
+            for (int i = 0; i < hitLines.length; i++) {
+                sr.line(
+                        hitLines[i].x1,
+                        hitLines[i].y1,
+                        hitLines[i].x2,
+                        hitLines[i].y2
+                );
+            }
+            sr.end();
+            return;
+        }
+
+        //draw ship
         for (int i = 0, j = shapex.length - 1;
-                i < shapex.length;
-                j = i++) {
+             i < shapex.length;
+             j = i++) {
 
             sr.line(shapex[i], shapey[i], shapex[j], shapey[j]);
 
@@ -113,5 +241,6 @@ public class Player extends SpaceObject {
         sr.end();
 
     }
+
 
 }
