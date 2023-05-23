@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"dk.sdu.mmmi.cbse.common.services","l":"IEntityProcessingService"},{"p":"dk.sdu.mmmi.cbse.common.services","l":"IGamePluginService"},{"p":"dk.sdu.mmmi.cbse.common.services","l":"IPostEntityProcessingService"}];updateSearchResults();
