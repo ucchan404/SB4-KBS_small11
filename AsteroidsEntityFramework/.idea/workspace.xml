@@ -8,24 +8,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4a7083-38ed-4a2b-82aa-4f4397ae9e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/Asteroid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/dk/sdu/mmmi/cbse/asteroidsystem/Asteroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidSplitterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/TimerPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonAsteroid/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonAsteroid/src/main/java/dk/sdu/mmmi/cbse/commonasteroid/IAsteroidSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonBullet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/commonbullet/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/commonbullet/BulletSPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/Asteroid.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/src/dk/sdu/mmmi/cbse/asteroidsystem/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/src/main/java/dk/sdu/mmmi/cbse/commonasteroid/Asteroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/src/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/src/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/Asteroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Player/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +61,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +97,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,7 +131,7 @@
       <updated>1684240633029</updated>
       <workItem from="1684240634025" duration="10000" />
       <workItem from="1684495388027" duration="14468000" />
-      <workItem from="1684829285183" duration="4368000" />
+      <workItem from="1684829285183" duration="15673000" />
     </task>
     <servers />
   </component>

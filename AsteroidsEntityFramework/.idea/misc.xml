@@ -9,6 +9,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Asteroid/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonAsteroid/pom.xml" />
+        <option value="$PROJECT_DIR$/CommonBullet/pom.xml" />
       </list>
     </option>
   </component>

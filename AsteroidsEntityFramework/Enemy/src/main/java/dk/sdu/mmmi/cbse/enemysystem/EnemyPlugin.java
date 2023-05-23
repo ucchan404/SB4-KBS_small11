@@ -34,7 +34,7 @@ public class EnemyPlugin implements IGamePluginService, IPostEntityProcessingSer
         Entity enemyShip = new Enemy();
         enemyShip.add(new MovingPart(0, speed, speed, 0));
         enemyShip.add(new PositionPart(x, y, radians));
-        enemyShip.add(new LifePart(1, 0));
+        enemyShip.add(new LifePart(1));
 
         return enemyShip;
     }

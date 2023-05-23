@@ -7,9 +7,10 @@ import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 
 public class EnemyControlSystem implements IEntityProcessingService {
-
+    private BulletSPI bulletService;
 
     @Override
     public void process(GameData gameData, World world) {
@@ -24,6 +25,10 @@ public class EnemyControlSystem implements IEntityProcessingService {
                 movingPart.setRight(true);
             } else if (random == 3) {
                 movingPart.setRight(true);
+            }
+            if (bulletService != null) {
+                Entity bullet = bulletService.createBullet(enemy, gameData);
+                world.addEntity(bullet);
             }
 
             movingPart.process(gameData, enemy);
@@ -68,5 +73,13 @@ public class EnemyControlSystem implements IEntityProcessingService {
 
         enemy.setShapeX(shapex);
         enemy.setShapeY(shapey);
+    }
+
+    public void setBulletService(BulletSPI bulletService) {
+        this.bulletService = bulletService;
+    }
+
+    public void removeBulletService(BulletSPI bulletService) {
+        this.bulletService = null;
     }
 }

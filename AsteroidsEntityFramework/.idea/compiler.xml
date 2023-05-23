@@ -6,11 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Bullet" />
         <module name="Player" />
         <module name="Asteroid" />
+        <module name="Enemy" />
+        <module name="Collision" />
+        <module name="CommonAsteroid" />
+        <module name="CommonBullet" />
         <module name="Common" />
         <module name="Core" />
-        <module name="Enemy" />
       </profile>
     </annotationProcessing>
   </component>
