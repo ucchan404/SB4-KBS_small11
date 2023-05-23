@@ -4,6 +4,7 @@ import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
+import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
@@ -12,11 +13,13 @@ import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 public class EnemyControlSystem implements IEntityProcessingService {
     private BulletSPI bulletService;
 
+
     @Override
     public void process(GameData gameData, World world) {
         for (Entity enemy : world.getEntities(Enemy.class)) {
             PositionPart positionPart = enemy.getPart(PositionPart.class);
             MovingPart movingPart = enemy.getPart(MovingPart.class);
+            LifePart lifePart = enemy.getPart(LifePart.class);
 
             int random = MathUtils.random(1, 3);
             if (random == 1) {
@@ -33,6 +36,7 @@ public class EnemyControlSystem implements IEntityProcessingService {
 
             movingPart.process(gameData, enemy);
             positionPart.process(gameData, enemy);
+            lifePart.process(gameData, enemy);
 
             updateShape(enemy);
 
@@ -75,11 +79,5 @@ public class EnemyControlSystem implements IEntityProcessingService {
         enemy.setShapeY(shapey);
     }
 
-    public void setBulletService(BulletSPI bulletService) {
-        this.bulletService = bulletService;
-    }
 
-    public void removeBulletService(BulletSPI bulletService) {
-        this.bulletService = null;
-    }
 }

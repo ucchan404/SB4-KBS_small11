@@ -1,33 +1,22 @@
 package dk.sdu.mmmi.cbse.playersystem;
 
-import com.badlogic.gdx.utils.BufferUtils;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
-
-import static dk.sdu.mmmi.cbse.common.data.GameKeys.LEFT;
-import static dk.sdu.mmmi.cbse.common.data.GameKeys.RIGHT;
-import static dk.sdu.mmmi.cbse.common.data.GameKeys.UP;
-
 import dk.sdu.mmmi.cbse.common.data.GameKeys;
 import dk.sdu.mmmi.cbse.common.data.World;
-import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
-import dk.sdu.mmmi.cbse.commonbullet.Bullet;
+import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
+
+import static dk.sdu.mmmi.cbse.common.data.GameKeys.*;
 
 
 /**
  * @author jcs
  */
 public class PlayerControlSystem implements IEntityProcessingService {
-    private BulletSPI bulletService = new BulletSPI() {
-        @Override
-        public Entity createBullet(Entity entity, GameData gameData) {
-            return entity;
-        }
-    };
 
     @Override
     public void process(GameData gameData, World world) {
@@ -39,13 +28,13 @@ public class PlayerControlSystem implements IEntityProcessingService {
             movingPart.setLeft(gameData.getKeys().isDown(LEFT));
             movingPart.setRight(gameData.getKeys().isDown(RIGHT));
             movingPart.setUp(gameData.getKeys().isDown(UP));
-            setBulletService(bulletService);
+
 
 
             if (gameData.getKeys().isDown(GameKeys.SPACE)) {
-                Entity bullet = bulletService.createBullet(player,gameData);
-                System.out.println(gameData.getDelta());
-                world.addEntity(bullet);
+                for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)){
+                    world.addEntity(bullet.createBullet(player, gameData));
+                }
 
             }
 
@@ -81,12 +70,4 @@ public class PlayerControlSystem implements IEntityProcessingService {
         entity.setShapeY(shapey);
     }
 
-    public void setBulletService(BulletSPI bulletService) {
-        this.bulletService = bulletService;
-    }
-
-    public void removeBulletService(BulletSPI bulletService) {
-        this.bulletService = null;
-    }
-
-}
+  }
