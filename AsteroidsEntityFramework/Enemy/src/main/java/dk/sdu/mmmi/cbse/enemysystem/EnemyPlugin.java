@@ -30,14 +30,6 @@ public class EnemyPlugin implements IGamePluginService, IPostEntityProcessingSer
         float radians = MathUtils.random(3.1415f);
         float x = MathUtils.random(gameData.getDisplayWidth());
         float y = MathUtils.random(gameData.getDisplayHeight());
-        float direction = MathUtils.random(0,1);
-//        if (direction < 0.5) {
-//            radians = 3.1415f / 3;
-//            x = gameData.getDisplayWidth();
-//        } else {
-//            radians = 3.1415f / 1;
-//            x = 0;
-//        }
 
         Entity enemyShip = new Enemy();
         enemyShip.add(new MovingPart(0, speed, speed, 0));
