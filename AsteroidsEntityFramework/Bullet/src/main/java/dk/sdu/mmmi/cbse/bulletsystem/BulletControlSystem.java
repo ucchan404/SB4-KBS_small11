@@ -1,6 +1,5 @@
 package dk.sdu.mmmi.cbse.bulletsystem;
 
-import com.badlogic.gdx.math.MathUtils;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
@@ -46,8 +45,8 @@ public class BulletControlSystem implements IEntityProcessingService, BulletSPI 
         shapex[0] = x;
         shapey[0] = y;
 
-        shapex[1] = x + MathUtils.cos(radians - 4 * 3.1415f / 5);
-        shapey[1] = y + MathUtils.sin(radians - 4 * 3.1415f / 5);
+        shapex[1] = (float) (x + Math.cos(radians - 4 * 3.1415f / 5));
+        shapey[1] = (float) (y + Math.sin(radians - 4 * 3.1415f / 5));
 
         bullet.setShapeX(shapex);
         bullet.setShapeY(shapey);
@@ -67,8 +66,8 @@ public class BulletControlSystem implements IEntityProcessingService, BulletSPI 
         Entity bullet = new Bullet();
         bullet.setRadius(2);
 
-        float bx = MathUtils.cos(radians) * shooter.getRadius() * bullet.getRadius();
-        float by = MathUtils.sin(radians) * shooter.getRadius() * bullet.getRadius();
+        float bx = (float) (Math.cos(radians) * shooter.getRadius() * bullet.getRadius());
+        float by = (float) (Math.sin(radians) * shooter.getRadius() * bullet.getRadius());
 
         bullet.add(new PositionPart(bx + x, by + y, radians));
         bullet.add(new MovingPart(0, 5000000, speed, 5));
