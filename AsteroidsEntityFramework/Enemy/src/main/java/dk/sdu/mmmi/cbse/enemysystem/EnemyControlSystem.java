@@ -10,6 +10,7 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
+import dk.sdu.mmmi.cbse.commonenemy.Enemy;
 
 public class EnemyControlSystem implements IEntityProcessingService {
      private float fireTimer = 0;
