@@ -8,9 +8,8 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
-import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 
-public class EnemyPlugin implements IGamePluginService, IPostEntityProcessingService {
+public class EnemyPlugin implements IGamePluginService{
 
 
     private Entity enemy;
@@ -44,8 +43,5 @@ public class EnemyPlugin implements IGamePluginService, IPostEntityProcessingSer
         world.removeEntity(enemy);
     }
 
-    @Override
-    public void process(GameData gameData, World world) {
 
-    }
 }

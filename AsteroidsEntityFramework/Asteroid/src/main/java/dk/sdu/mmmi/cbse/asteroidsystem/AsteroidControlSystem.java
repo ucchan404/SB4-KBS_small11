@@ -37,6 +37,7 @@ public class AsteroidControlSystem implements IEntityProcessingService {
             movingPart.process(gameData, asteroid);
             positionPart.process(gameData, asteroid);
 
+
             if (lifePart.isHit()){
                 asteroidSplitter.createSplitAsteroid(asteroid, world);
             }

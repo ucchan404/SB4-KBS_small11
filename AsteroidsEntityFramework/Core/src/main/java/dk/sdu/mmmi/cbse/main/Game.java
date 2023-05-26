@@ -107,6 +107,7 @@ public class Game
             entityProcessorService.process(gameData, world);
         }
         for (IPostEntityProcessingService postEntityProcessorService : getPostEntityProcessingServices()) {
+            System.out.println("post");
             postEntityProcessorService.process(gameData, world);
         }
     }
@@ -155,8 +156,7 @@ public class Game
     private Collection<? extends IEntityProcessingService> getEntityProcessingServices(){
         return SPILocator.locateAll(IEntityProcessingService.class);
     }
-
-    private Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices(){
+    private Collection<? extends IPostEntityProcessingService> getPostEntityProcessingServices() {
         return SPILocator.locateAll(IPostEntityProcessingService.class);
     }
 }

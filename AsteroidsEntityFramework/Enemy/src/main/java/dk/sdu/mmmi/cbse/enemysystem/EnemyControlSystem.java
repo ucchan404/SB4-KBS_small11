@@ -8,10 +8,13 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
+import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 
 public class EnemyControlSystem implements IEntityProcessingService {
-    private BulletSPI bulletService;
+     private float fireTimer = 0;
+    private float fireTime = 1;
+    private Entity enemy;
 
 
     @Override
@@ -29,9 +32,15 @@ public class EnemyControlSystem implements IEntityProcessingService {
             } else if (random == 3) {
                 movingPart.setRight(true);
             }
-            if (bulletService != null) {
-                Entity bullet = bulletService.createBullet(enemy, gameData);
-                world.addEntity(bullet);
+
+            fireTimer += gameData.getDelta();
+            if (fireTimer > fireTime) {
+                fireTimer = 0;
+                float radians = MathUtils.random(2 * 3.1415f);
+                positionPart.setRadians(radians);
+                for (BulletSPI bullet : SPILocator.locateAll(BulletSPI.class)) {
+                    world.addEntity(bullet.createBullet(enemy, gameData));
+                }
             }
 
             movingPart.process(gameData, enemy);

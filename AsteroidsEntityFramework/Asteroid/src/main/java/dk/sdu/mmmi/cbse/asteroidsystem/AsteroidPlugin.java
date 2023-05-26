@@ -8,22 +8,16 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.LifePart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
-import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
 
-public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessingService {
+public class AsteroidPlugin implements IGamePluginService{
 
     private Entity asteroid;
 
 
-    public AsteroidPlugin() {
-
-    }
-
-
     @Override
     public void start(GameData gameData, World world) {
-        int numAsteroids = MathUtils.random(2, 6);
+        int numAsteroids = MathUtils.random(1, 5);
         for (int i = 0; i < numAsteroids; i++) {
             asteroid = createAsteroid(gameData);
             world.addEntity(asteroid);
@@ -33,8 +27,8 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
     private Entity createAsteroid(GameData gameData) {
 
         Entity asteroid = new Asteroid();
-        float radians = MathUtils.random(2*3.1415f);
-        float speed = MathUtils.random(20,30);
+        float radians = MathUtils.random()* 2*3.1415f;
+        float speed = MathUtils.random() *10f +20f;
         float rotationSpeed = MathUtils.random(-1,1);
 
         asteroid.setRadius(40);
@@ -54,8 +48,4 @@ public class AsteroidPlugin implements IGamePluginService, IPostEntityProcessing
        }
     }
 
-    @Override
-    public void process(GameData gameData, World world) {
-
-    }
 }

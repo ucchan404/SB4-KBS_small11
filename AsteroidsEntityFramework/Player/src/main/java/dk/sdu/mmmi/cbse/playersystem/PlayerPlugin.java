@@ -9,7 +9,7 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService;
 
-public class PlayerPlugin implements IGamePluginService, IPostEntityProcessingService {
+public class PlayerPlugin implements IGamePluginService {
 
     private Entity player;
 
@@ -48,8 +48,4 @@ public class PlayerPlugin implements IGamePluginService, IPostEntityProcessingSe
         world.removeEntity(player);
     }
 
-    @Override
-    public void process(GameData gameData, World world) {
-
-    }
 }
