@@ -24,4 +24,18 @@
       <module name="Collision2" target="11" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Asteroid" options="-parameters" />
+      <module name="Bullet" options="-parameters" />
+      <module name="Collision" options="-parameters" />
+      <module name="Common" options="-parameters" />
+      <module name="CommonAsteroid" options="-parameters" />
+      <module name="CommonBullet" options="-parameters" />
+      <module name="CommonEnemy" options="-parameters" />
+      <module name="Core" options="-parameters" />
+      <module name="Enemy" options="-parameters" />
+      <module name="Player" options="-parameters" />
+    </option>
+  </component>
 </project>

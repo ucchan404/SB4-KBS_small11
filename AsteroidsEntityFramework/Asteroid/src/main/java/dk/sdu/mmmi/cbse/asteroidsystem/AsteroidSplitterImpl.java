@@ -8,7 +8,9 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
 import dk.sdu.mmmi.cbse.commonasteroid.IAsteroidSplitter;
+import org.springframework.stereotype.Service;
 
+@Service("AsteroidSplitterImpl")
 public class AsteroidSplitterImpl implements IAsteroidSplitter {
     @Override
     public void createSplitAsteroid(Entity e, World world) {

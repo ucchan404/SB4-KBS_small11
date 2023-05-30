@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <context:annotation-config/>
+    <!-- bean definitions go here -->
+    <import resource="../../../../Asteroid/src/main/resources/asteroid.xml"/>
+    <import resource="../../../../Bullet/src/main/resources/bullet.xml"/>
+    <import resource="../../../../Collision/src/main/resources/collision.xml"/>
+    <import resource="../../../../Common/src/main/resources/common.xml"/>
+    <import resource="../../../../CommonAsteroid/src/main/resources/commonasteroid.xml"/>
+    <import resource="../../../../CommonBullet/src/main/resources/commonbullet.xml"/>
+    <import resource="../../../../CommonEnemy/src/main/resources/commonenemy.xml"/>
+    <import resource="../../../../Enemy/src/main/resources/enemy.xml"/>
+    <import resource="../../../../Player/src/main/resources/player.xml"/>
+</beans>

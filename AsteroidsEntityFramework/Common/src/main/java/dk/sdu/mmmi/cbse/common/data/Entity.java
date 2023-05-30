@@ -1,11 +1,13 @@
 package dk.sdu.mmmi.cbse.common.data;
 
 import dk.sdu.mmmi.cbse.common.data.entityparts.EntityPart;
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-
+@Component("Entity")
 public class Entity implements Serializable {
     private final UUID ID = UUID.randomUUID();
 

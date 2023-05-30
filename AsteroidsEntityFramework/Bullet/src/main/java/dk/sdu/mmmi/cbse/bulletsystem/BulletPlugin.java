@@ -5,7 +5,9 @@ import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonbullet.Bullet;
+import org.springframework.stereotype.Service;
 
+@Service("BulletPlugin")
 public class BulletPlugin implements IGamePluginService {
 
     private Entity bullet;

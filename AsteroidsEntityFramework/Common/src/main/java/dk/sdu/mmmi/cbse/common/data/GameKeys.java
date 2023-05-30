@@ -1,5 +1,8 @@
 package dk.sdu.mmmi.cbse.common.data;
 
+import org.springframework.stereotype.Component;
+
+@Component("GameKeys")
 public class GameKeys {
 
     private static boolean[] keys;

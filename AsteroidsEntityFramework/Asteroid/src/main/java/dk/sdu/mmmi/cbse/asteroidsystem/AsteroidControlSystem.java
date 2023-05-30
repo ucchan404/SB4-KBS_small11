@@ -10,7 +10,9 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
 import dk.sdu.mmmi.cbse.commonasteroid.IAsteroidSplitter;
+import org.springframework.stereotype.Service;
 
+@Service("AsteroidControlSystem")
 public class AsteroidControlSystem implements IEntityProcessingService {
     int numPoints = 12;
     private IAsteroidSplitter asteroidSplitter = new AsteroidSplitterImpl();

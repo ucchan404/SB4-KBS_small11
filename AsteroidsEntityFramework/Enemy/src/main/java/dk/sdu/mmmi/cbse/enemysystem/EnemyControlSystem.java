@@ -11,7 +11,9 @@ import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
 import dk.sdu.mmmi.cbse.commonenemy.Enemy;
+import org.springframework.stereotype.Service;
 
+@Service("EnemyControlSystem")
 public class EnemyControlSystem implements IEntityProcessingService {
      private float fireTimer = 0;
     private float fireTime = 1;

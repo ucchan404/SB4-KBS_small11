@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Asteroid/Asteroid.iml" filepath="$PROJECT_DIR$/Asteroid/Asteroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsteroidsEntityFramework.iml" filepath="$PROJECT_DIR$/AsteroidsEntityFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bullet/Bullet.iml" filepath="$PROJECT_DIR$/Bullet/Bullet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collision/Collision.iml" filepath="$PROJECT_DIR$/Collision/Collision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonAsteroid/CommonAsteroid.iml" filepath="$PROJECT_DIR$/CommonAsteroid/CommonAsteroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonBullet/CommonBullet.iml" filepath="$PROJECT_DIR$/CommonBullet/CommonBullet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonEnemy/CommonEnemy.iml" filepath="$PROJECT_DIR$/CommonEnemy/CommonEnemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enemy/Enemy.iml" filepath="$PROJECT_DIR$/Enemy/Enemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Player/Player.iml" filepath="$PROJECT_DIR$/Player/Player.iml" />
     </modules>
   </component>
 </project>

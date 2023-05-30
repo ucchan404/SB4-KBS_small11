@@ -9,7 +9,9 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonasteroid.Asteroid;
+import org.springframework.stereotype.Service;
 
+@Service("Asteroid*Plugin")
 public class AsteroidPlugin implements IGamePluginService{
 
     private Entity asteroid;

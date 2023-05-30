@@ -9,7 +9,9 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
 import dk.sdu.mmmi.cbse.commonenemy.Enemy;
+import org.springframework.stereotype.Service;
 
+@Service("EnemyPlugin")
 public class EnemyPlugin implements IGamePluginService{
 
 

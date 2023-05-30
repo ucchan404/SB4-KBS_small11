@@ -10,7 +10,9 @@ import dk.sdu.mmmi.cbse.common.data.entityparts.TimerPart;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.commonbullet.Bullet;
 import dk.sdu.mmmi.cbse.commonbullet.BulletSPI;
+import org.springframework.stereotype.Service;
 
+@Service("BulletControlSystem")
 public class BulletControlSystem implements IEntityProcessingService, BulletSPI {
     @Override
     public void process(GameData gameData, World world) {

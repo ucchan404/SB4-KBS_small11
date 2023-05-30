@@ -19,15 +19,18 @@ import dk.sdu.mmmi.cbse.common.util.SPILocator;
 //import dk.sdu.mmmi.cbse.enemysystem.EnemyControlSystem;
 //import dk.sdu.mmmi.cbse.enemysystem.EnemyPlugin;
 import dk.sdu.mmmi.cbse.managers.GameInputProcessor;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 //import dk.sdu.mmmi.cbse.playersystem.PlayerControlSystem;
 //import dk.sdu.mmmi.cbse.playersystem.PlayerPlugin;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 
+@Configuration
 public class Game
         implements ApplicationListener {
+    ApplicationContext context = new FileSystemXmlApplicationContext("Core/src/main/resources/user-bean-config.xml");
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
@@ -36,7 +39,7 @@ public class Game
     //private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
     //private List<IGamePluginService> entityPlugins = new ArrayList<>();
     //private List<IPostEntityProcessingService> postEntityProcessors = new ArrayList<>();
-    private World world = new World();
+    private World world = (World) context.getBean("World");
 
     @Override
     public void create() {
@@ -107,7 +110,6 @@ public class Game
             entityProcessorService.process(gameData, world);
         }
         for (IPostEntityProcessingService postEntityProcessorService : getPostEntityProcessingServices()) {
-            System.out.println("post");
             postEntityProcessorService.process(gameData, world);
         }
     }
