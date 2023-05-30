@@ -8,357 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4a7083-38ed-4a2b-82aa-4f4397ae9e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Asteroid/Asteroid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Asteroid/src/main/resources/asteroid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/Bullet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bullet/src/main/resources/bullet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collision/Collision.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collision/src/main/resources/collision.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroid/CommonAsteroid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonAsteroid/src/main/resources/commonasteroid.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/CommonBullet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonBullet/src/main/resources/commonbullet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonEnemy/CommonEnemy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonEnemy/src/main/resources/commonenemy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/src/main/resources/user-bean-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/Enemy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enemy/src/main/resources/enemy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player/Player.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player/src/main/resources/player.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Player/src/test/java/TestPlayerMovement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidSplitterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidSplitterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/Asteroid-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidControlSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidSplitterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroidsystem/AsteroidSplitterImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asteroid/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Asteroid/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/Bullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/Bullet-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bullet/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Bullet/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionControlSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collision/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collision/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/Common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameKeys.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/TimerPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/TimerPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/events/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/events/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IGamePluginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IGamePluginService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/util/SPILocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/classes/dk/sdu/mmmi/cbse/common/util/SPILocator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/src/main/java/dk/sdu/mmmi/cbse/commonasteroid/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/src/main/java/dk/sdu/mmmi/cbse/commonasteroid/Asteroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/CommonAsteroid-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/target/CommonAsteroid-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/classes/dk/sdu/mmmi/cbse/commonasteroid/Asteroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/target/classes/dk/sdu/mmmi/cbse/commonasteroid/Asteroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/classes/dk/sdu/mmmi/cbse/commonasteroid/IAsteroidSplitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/target/classes/dk/sdu/mmmi/cbse/commonasteroid/IAsteroidSplitter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonAsteroid/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonAsteroid/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/commonbullet/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/commonbullet/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/CommonBullet-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/BulletSPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/BulletSPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonBullet/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CommonBullet/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonEnemy/src/main/java/dk/sdu/mmmi/cbse/commonenemy/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/src/main/java/dk/sdu/mmmi/cbse/commonenemy/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonEnemy/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/classes/dk/sdu/mmmi/cbse/commonenemy/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/CommonEnemy/target/classes/dk/sdu/mmmi/cbse/commonenemy/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonEnemy/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Core/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/Enemy-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/Enemy-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Enemy/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Player/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/main/resources/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/Player-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/Player-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Player/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/Asteroid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidControlSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidSplitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidControlSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Asteroid/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/src/main/java/dk/sdu/mmmi/cbse/collision/Collider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/target/classes/dk/sdu/mmmi/cbse/collision/Collider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Collision/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/SplitterPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/events/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/dk/sdu/mmmi/cbse/common/util/SPILocator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/SplitterPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/events/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IGamePluginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/dk/sdu/mmmi/cbse/common/util/SPILocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Common/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/nbactions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/src/main/java/dk/sdu/mmmi/cbse/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/src/main/java/dk/sdu/mmmi/cbse/managers/GameInputProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Core/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/Player/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsJava9/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/Asteroid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/Bullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/Enemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/entities/SpaceObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/gamestates/GameState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/gamestates/PlayState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/managers/GameInputProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/managers/GameKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/src/main/java/dk/sdu/mmmi/cbse/managers/GameStateManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/entities/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/entities/Bullet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/entities/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/entities/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/entities/SpaceObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/gamestates/GameState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/gamestates/PlayState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/managers/GameKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsLibGDX/target/classes/dk/sdu/mmmi/cbse/managers/GameStateManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/src/main/java/dk/sdu/mmmi/cbse/asteroid/AsteroidSplitterImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Asteroid/target/classes/dk/sdu/mmmi/cbse/asteroid/AsteroidSplitterImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/src/main/java/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.bullet.BulletSPI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.bullet.BulletSPI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletControlSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Bullet/target/classes/dk/sdu/mmmi/cbse/bulletsystem/BulletPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Collision/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Collision/src/main/java/dk/sdu/mmmi/cbse/collisionsystem/CollisionDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Collision/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Collision/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IPostEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Collision/target/classes/dk/sdu/mmmi/cbse/collisionsystem/CollisionDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/Entity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/GameKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/World.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/data/entityparts/TimerPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/events/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IGamePluginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/src/main/java/dk/sdu/mmmi/cbse/common/util/SPILocator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/Entity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/GameKeys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/World.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/EntityPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/LifePart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/MovingPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/PositionPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/data/entityparts/TimerPart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/events/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IEntityProcessingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IGamePluginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/services/IPostEntityProcessingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Common/target/classes/dk/sdu/mmmi/cbse/common/util/SPILocator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/src/main/java/dk/sdu/mmmi/cbse/common/asteroids/Asteroid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/src/main/java/dk/sdu/mmmi/cbse/common/asteroids/IAsteroidSplitter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/src/main/resources/dk/sdu/mmmi/cbse/common/asteroids/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/target/classes/dk/sdu/mmmi/cbse/common/asteroids/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/target/classes/dk/sdu/mmmi/cbse/common/asteroids/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonAsteroids/target/classes/dk/sdu/mmmi/cbse/common/asteroids/IAsteroidSplitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/common/bullet/Bullet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/src/main/java/dk/sdu/mmmi/cbse/common/bullet/BulletSPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/src/main/resources/dk/sdu/mmmi/cbse/commonbullet/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/target/classes/dk/sdu/mmmi/cbse/common/bullet/Bullet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/target/classes/dk/sdu/mmmi/cbse/common/bullet/BulletSPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonBullet/target/classes/dk/sdu/mmmi/cbse/commonbullet/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonEnemy/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonEnemy/src/main/java/dk/sdu/mmmi/cbse/common/enemy/Enemy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/CommonEnemy/target/classes/dk/sdu/mmmi/cbse/common/enemy/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/nbactions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/src/main/java/dk/sdu/mmmi/cbse/main/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/src/main/java/dk/sdu/mmmi/cbse/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/src/main/java/dk/sdu/mmmi/cbse/managers/GameInputProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/target/classes/dk/sdu/mmmi/cbse/main/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/target/classes/dk/sdu/mmmi/cbse/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Core/target/classes/dk/sdu/mmmi/cbse/managers/GameInputProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/src/main/java/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyControlSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Enemy/target/classes/dk/sdu/mmmi/cbse/enemysystem/EnemyPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/src/main/resources/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IEntityProcessingService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/target/classes/META-INF/services/dk.sdu.mmmi.cbse.common.services.IGamePluginService" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/Player/target/classes/dk/sdu/mmmi/cbse/playersystem/PlayerPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AsteroidsServiceLoader/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/HelloWorld/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/HelloWorld/src/main/nbm/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/HelloWorld/src/main/resources/dk/sdu/cbse/helloworld/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/application/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/application/src/test/java/dk/sdu/cbse/nbruntimeexample12/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/branding/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/branding/src/main/nbm-branding/core/core.jar/org/netbeans/core/startup/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/branding/src/main/nbm-branding/modules/org-netbeans-core-windows.jar/org/netbeans/core/windows/view/ui/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/branding/src/main/nbm-branding/modules/org-netbeans-core.jar/org/netbeans/core/ui/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/branding/src/main/nbm/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/branding/src/main/resources/dk/sdu/cbse/nbruntimeexample12/branding/Bundle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NBRuntimeExample12/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -369,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="module-info" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -422,7 +74,7 @@
       <recent name="$PROJECT_DIR$/CommonAsteroid/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestPlayerMovement.testPlayerMovement">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="dk.sdu.mmmi.cbse.main.Main" />
@@ -433,6 +85,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlayerMovement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Player" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPlayerMovement" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlayerMovement.testPlayerMovement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Player" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPlayerMovement" />
+      <option name="METHOD_NAME" value="testPlayerMovement" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -465,10 +136,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestPlayerMovement" />
+      <item itemvalue="JUnit.TestPlayerMovement.testPlayerMovement" />
       <item itemvalue="Maven.AsteroidsEntityFramework [install]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPlayerMovement.testPlayerMovement" />
+        <item itemvalue="JUnit.TestPlayerMovement" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -500,6 +175,11 @@
           <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Player/src/main/java/dk/sdu/mmmi/cbse/playersystem/PlayerControlSystem.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
